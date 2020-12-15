@@ -1,0 +1,93 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.screenshot {
+    position: relative; height: 851px; width: 375px; background-size: contain;
+    background-repeat: no-repeat, repeat;
+}
+
+
+
+#user{
+    background-image: url(/images/user.png); 
+}
+
+#index{
+    background-image: url(/images/index.png); 
+}
+
+#map{
+    background-image: url(/images/map.png);
+}
+
+#user{
+    background-image: url(/images/user.png);
+}
+
+#schedule{
+    background-image: url(/images/schedule.png); 
+}
+
+#misclassified{
+    background-image: url(/images/misclassified.png);
+}
+
+#id{
+    background-image: url(/images/id.png);
+}
+
+#id-data{
+    background-image: url(/images/id_data.png);
+}
+
+#book{
+    background-image: url(/images/book.png);
+}
+
+#borrow{
+    background-image: url(/images/borrow.png);
+}
+
+#footer{
+    background-image: url(images/footer.png);
+    background-size: 100%;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+
+}
+
+.buttons{
+    position: absolute; 
+    bottom: 0;
+    height: 82px; 
+    width: 73px;
+    /* border: 1px red dotted; */
+}
+.tooltip {
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+.text-input{
+    position: absolute;
+    top: 550px ;
+    left: 33px;
+    
+}

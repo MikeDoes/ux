@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inputs.css">
+    <title>Dewey</title>
+</head>
+<body style="margin: 2px;">
+    <div class="screenshot" id="id">
+        
+    <h3 style="position: absolute; top: 45px; left: 8px; color: black">Take a picture of the book:</h3>
+    <h3 style="position: absolute; top: 510px; left: 8px; color: black">Manually type in the id or title:</h3>
+    <img style="position: relative; height: 380px; width: 90%; left: 20px; top: 80px; object-fit: cover;  border: 1px solid black " src="images/book.gif" />
+     
+        <div id="footer">
+            <a class = 'buttons tooltip' style="" href="dewey.html"><span class="tooltiptext">Dewey Reorganise</span></a>
+            <a class = 'buttons tooltip' style="left: 75px;" href="id.html"><span class="tooltiptext">Search Visitor</span></a>
+            <a class = 'buttons tooltip' style="left: 154px;" href="book.html"><span class="tooltiptext">Search Book</span></a>
+            <a class = 'buttons tooltip' style="left: 230px;" href="map.html"><span class="tooltiptext">Map</span></a>
+            <a class = 'buttons tooltip' style="right: 0px;" href="user.html"><span class="tooltiptext">User Information</span></a>
+        </div>
+        <div class="text-input">
+            <span>
+                <input class="slide-up" id="card" type="text" placeholder="Manually enter number" /><label for="card">ID Number</label>
+            </span>
+        </div>
+
+        
+    </div>
+    <a href="borrow.html"><img style="position: absolute; width: 100px; top: 370px; left: 143px;" src="images/record-button.png" />
+    </a>
+
+    <a style="position: absolute; top: 612px; left: 34px" class="pure-button" href="borrow.html">Submit</a>
+    
+</body>
+</html>
+
