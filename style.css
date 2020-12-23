@@ -47,6 +47,10 @@
     background-image: url(/images/borrow.png);
 }
 
+#receipt{
+    background-image: url(/images/receipt.png);
+}
+
 #footer{
     background-image: url(images/footer.png);
     background-size: 100%;
@@ -84,10 +88,20 @@
     visibility: visible;
   }
 
-
 .text-input{
     position: absolute;
     top: 550px ;
-    left: 33px;
-    
+    left: 33px;   
+}
+
+ul{
+    padding: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style-type: square;
+    margin-bottom: 20px;
+    font-size: 23px;
 }
